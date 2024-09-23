@@ -1,0 +1,29 @@
+:root {
+  --main-color: #a82c48;
+  --hover-color: #c7012e;
+}
+.haeder {
+  position: fixed;
+  background: #fff;
+  width: 100%;
+}
+
+.logo {
+  height: 80px;
+}
+.nav a {
+  color: var(--main-color);
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  transition: 0.3s;
+  font-family: "Cairo", sans-serif;
+}
+.nav a:hover {
+  color: var(--hover-color);
+  font-weight: 500;
+}
+.number {
+  background-color: var(--main-color) !important;
+  color: #fff !important;
+  margin: 0 10px !important;
+}
